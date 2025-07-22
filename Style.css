@@ -1,0 +1,300 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.header-left{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    height: 48px;
+    width: 166px;
+    align-items: center;
+    font-size: 23px;
+    color: #4e4848;
+    margin-left: 11px;margin-top: 5px;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 238, 238);
+    border-radius: 25px;
+    width: 675px;
+    margin-right: 690px;
+    margin-top: 10px;
+    align-items: center;
+    height: 42px;
+    border: #c91010;
+}
+.header-right{
+    display: flex;
+    justify-content: right;
+    gap: 16px;
+    height: 55px;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+.gmail-logo{
+    width: 82px;
+    height: 28px;
+    margin-right: 10px;
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.search-input{
+    width: 536px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(250, 238, 238);
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+}
+.right-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+        
+}
+.header-icon-right{
+    width: 30px;
+    padding-left: 8px;
+}
+.right-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #c91010;
+    color: white;
+    font-size: 16px;
+}
+.compose-icon{
+    width: 30px;
+    height: 30px;
+    margin: 12px 3px 16px 11px;
+    width: 34px;
+    background-color: #94cfebc9;
+    border-radius: 13px;
+    padding: 11px;
+}
+.leftslide-icon{
+    width: 18px;
+    margin: 0 0 0 26px;
+}
+.leftslide{
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-size-adjust: 20px;
+    font-size: x-large;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.adjust{
+   width: 20px;
+}
+.bo{
+    border: none;
+}
+.down-search{
+    display: flex;
+    padding: 15px;
+        gap: 1390px;
+    margin-top: 10px;
+    
+    
+}
+.slide-down{
+        padding: 10px 0px 0px 0px;
+}
+.left-part{
+    display: flex;
+    gap: 23px;
+}
+.right-part{
+    display: flex;
+    gap: 23px;
+}
+.midd-part{
+    margin: 52px;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px;
+    text-align-last: center;
+    padding-top: 9px;
+
+}
+.rightside-icons{
+    width: 25px;
+}
+.task{
+    width: 35px;
+}
+.mail-list{
+    display: flex;
+    gap: 158px;
+    margin-top: 20px;
+    
+}
+.mid-img{
+    width: 20px;
+}
+.mail-list-item{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 4px 26px 9px 10px;
+}
+.mail-content{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.starred{
+    width: 20px;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.unstop{
+    font-size: 16px;
+}
+.mail{
+    display: flex;
+    
+    border-bottom: 1px solid #d6dce3;
+    
+}
+.work{
+    margin-left: 54px;
+}
+.time{
+        margin-left: 868px;
+    font-size: 13px;
+}
+.leftslide-text{
+    font-size: 25px;
+    margin: 43px 0 0px 26px;
+}
+.h-right{
+    padding: 5px 5px 2px 0px;
+}
+.right{
+    padding: 6px 6px 6px 6px;
+}
+.hover-icon{
+    display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 0px 82px 0 0px;
+
+}
+.pri{
+    font-size: medium;
+}
+
+
+.right:hover{
+    background: antiquewhite;
+    border-radius: 23px;
+}
+.mail-list-item:hover{
+    background-color: #dfdfda;
+    cursor: pointer;
+    padding: 4px 26px 9px 10px;
+}
+.rightside-icons:hover{
+    background-color: #dfdfda;
+    cursor: pointer;
+}
+.leftslide-icon:hover{
+    background-color: #dfdfda;
+    cursor: pointer;
+}
+.h-right:hover{
+    background: antiquewhite;
+    padding: 5px 5px 2px 0px;
+    border-radius: 25px;
+}
+.hover-icon:hover{
+    background-color: #dfdfda;
+}
+
+@media (max-width:1024px) {
+    
+        
+    
+    .mail-list{
+        gap: 40px;
+    }
+    .time{
+        margin-left: 40px;
+    }
+        
+    
+    .hover-icon{
+        padding-right: 10px;
+    }
+    .search{
+        width: 437px;
+        margin-right: 0px;
+        
+    }
+    .down-search{
+            gap: 556px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .mail-list{
+        gap: 0px;
+    }   
+    .search{
+        width: 290px;
+        margin-right: 0px;
+    }
+    .pri{
+        display: none;
+    }
+    .header-right{
+        gap: 10px;
+    }
+    .work{
+        font-size: small;
+        margin-left: 20px;
+    }
+    .un{
+        font-size: small;
+    }
+    .header-left{
+        gap: 13px;
+    }
+    .down-search{
+        gap: 418px;
+    }
+}
